@@ -105,7 +105,7 @@ nav .fas
     display: none;
 } 
 
-@media (max-width: 700px) 
+@media (max-width: 580px) 
 {
     .textbox h1
 {
@@ -199,6 +199,14 @@ p
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+}   
+
+@media(max-width: 700px)
+{
+    .row
+    {
+        flex-direction: column;
+    }
 }  
 
 /*-------------------------------------- ende her ----------------------------------------------------------*/
@@ -214,7 +222,7 @@ p
 
 .our-services-col
 {
-    flex-basis: 31%;
+    flex-basis: 45%;
     background: #fff3f3; 
     border-radius: 10px;
     margin-bottom: 5%;
