@@ -37,7 +37,7 @@ nav img{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
 } 
 .nav-links ul li::after{
     content: '';
@@ -183,6 +183,7 @@ nav .fas
     padding: 25px;
     cursor: pointer;
     display: flex;
+    transition: 0.5s;
 }
 
 
@@ -199,7 +200,12 @@ p
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
-}   
+} 
+
+.promise-col:hover
+{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
 
 @media(max-width: 700px)
 {
